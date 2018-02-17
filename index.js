@@ -1,6 +1,5 @@
 var uppercase = "HELLO!"
 var lowercase = "hello!"
-var mixedcase = "Hello!"
 
 function shout(string) {
   return string.toUpperCase()
@@ -23,7 +22,7 @@ function sayHiToGrandma(string) {
  return "I can\'t hear you!"
 } else if (uppercase) {
   return "YES INDEED!"
-} else if (mixedcase) {
+} else if ("I love you, Grandma.") {
   return "I love you, too"
 }
 }
