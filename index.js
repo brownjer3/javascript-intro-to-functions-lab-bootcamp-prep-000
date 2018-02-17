@@ -22,6 +22,12 @@ function sayHiToGrandma(string) {
  return "I can't hear you!"
 }
 }
+
+function sayHiToGrandma(string) {
+ if (uppercase) {
+ return "YES INDEED!"
+}
+}
  
 /* } else if (uppercase) { 
   return "YES INDEED!"
